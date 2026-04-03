@@ -152,7 +152,8 @@
 /* VIDEO CARD (RECTANGLE) */
 .video-card {
     width: 100%;   /* left + right gap */
-    height: calc(100vh - 80px);  /* top + bottom gap */
+    height: 100vh;  /* top + bottom gap */
+    margin-bottom: 80px;
 
     /* margin: 40px; */
      /* equal gap all sides */
